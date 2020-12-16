@@ -5,7 +5,6 @@ jenkins:
       users:
        - id: ${JENKINS_ADMIN_ID}
          password: ${JENKINS_ADMIN_PASSWORD}
-  slaveAgentPort: ${JENKINS_SLAVE_PORT}
   authorizationStrategy:
     globalMatrix:
       permissions:
